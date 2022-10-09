@@ -1,0 +1,3691 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.Agents_container {
+  height: 192vh;
+  background-color: #283B62;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Agents_container {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Agents_container {
+    height: 147vh;
+  }
+}
+
+@media (max-height: 1024px) {
+  .Agents_container {
+    height: 166vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Agents_container {
+    height: 477vh;
+  }
+}
+
+.Agents_container .Chat {
+  position: fixed;
+  width: 14%;
+  height: 4rem;
+  background-color: #5272b2;
+  float: right;
+  color: white;
+  font-size: 1.6rem;
+  font-family: "helvetica";
+  text-align: center;
+  padding-top: 2rem;
+  margin-top: 49rem;
+  margin-left: 114rem;
+}
+
+.Agents_container h2 {
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 6rem;
+  margin: 0px;
+}
+
+.Agents_container .Agents_list {
+  height: 154vh;
+  width: 65%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8rem;
+}
+
+@media (max-width: 1600px) {
+  .Agents_container .Agents_list {
+    width: 56%;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Agents_container .Agents_list {
+    height: 100vh;
+  }
+}
+
+@media (max-height: 1024px) {
+  .Agents_container .Agents_list {
+    height: 144vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .Agents_container .Agents_list {
+    width: 68%;
+  }
+}
+
+@media (max-width: 632px) {
+  .Agents_container .Agents_list {
+    width: 78%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Agents_container .Agents_list {
+    width: 60%;
+    height: 451vh;
+  }
+}
+
+.Agents_container .Agents_list .Agents {
+  width: 22.8rem;
+  height: 40rem;
+}
+
+.Agents_container .Agents_list .Agents #Name {
+  display: block;
+  color: #5272B2;
+  font-size: 2rem;
+  font-family: "helvetica";
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.Agents_container .Agents_list .Agents #Agent_Type {
+  display: block;
+  color: #CBB492;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  margin-top: 2rem;
+}
+
+.Agents_container .Agents_list .Agents .Agent_Booking_btn {
+  width: 22.8rem;
+  height: 4rem;
+  color: #283B62;
+  background-color: #B8C2D8;
+  border: none;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+.Booking_Container {
+  height: 74vh;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Booking_Container {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Booking_Container {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Booking_Container {
+    height: 64vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Booking_Container {
+    height: 79vh;
+  }
+}
+
+.Booking_Container .Booking_list {
+  width: 71%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Booking_Container .Booking_list {
+    width: 77%;
+    margin-top: -7rem;
+  }
+}
+
+.Booking_Container .Booking_list .Booking {
+  width: 292px;
+  height: 442px;
+  border: 1px solid #5272b2;
+}
+
+@media (max-width: 998px) {
+  .Booking_Container .Booking_list .Booking {
+    width: 459px;
+    height: 596.5px;
+    margin-top: 11rem;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Booking_Container .Booking_list .Booking {
+    width: 292px;
+    height: 442px;
+    margin-top: 196px;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Booking_Container .Booking_list .Booking {
+    height: 473px;
+    margin-top: 106px;
+  }
+}
+
+.Booking_Container .Booking_list .Booking img {
+  width: 292px;
+  height: 194.5px;
+}
+
+@media (max-width: 998px) {
+  .Booking_Container .Booking_list .Booking img {
+    width: 459px;
+    height: 347.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Booking_Container .Booking_list .Booking img {
+    width: 292px;
+    height: 194.5px;
+  }
+}
+
+.Booking_Container .Booking-text {
+  width: 200px;
+  height: 238px;
+  margin: auto;
+  color: #283B62;
+}
+
+.Booking_Container .Booking-text p {
+  font-size: 22px;
+  font-family: 'raleway';
+  color: #283B62;
+  text-align: center;
+}
+
+@media (max-width: 543px) {
+  .Booking_Container .Booking-text p {
+    margin-top: 3rem;
+  }
+}
+
+.Booking_Container .Booking-text #Hour {
+  font-size: 16px;
+  font-family: 'Open sans';
+}
+
+.Booking_Container .Booking-text #Charges {
+  font-size: 16px;
+}
+
+.Booking_Container .Booking-text .btn {
+  width: 19REM;
+  height: 4rem;
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  color: white;
+  border: none;
+  background-color: #283B62;
+}
+
+@media (max-width: 543px) {
+  .Booking_Container .Booking-text .btn {
+    margin-left: 7.6rem;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Booking_Container .Booking-text .btn {
+    margin-left: .6rem;
+  }
+}
+
+.Booking_Container .Booking-text :hover {
+  opacity: 0.5;
+}
+
+header {
+  height: 8rem;
+}
+
+.navbar {
+  width: 68%;
+  height: 7.5rem;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1193px) {
+  .navbar {
+    width: 74%;
+  }
+}
+
+@media (max-width: 1096px) {
+  .navbar {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1082px) {
+  .navbar {
+    width: 76%;
+  }
+}
+
+@media (max-width: 1067px) {
+  .navbar {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1053px) {
+  .navbar {
+    width: 78%;
+  }
+}
+
+@media (max-width: 1045px) {
+  .navbar {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    width: 94%;
+  }
+}
+
+.navbar .Logo {
+  width: 13%;
+  height: 3.5rem;
+}
+
+@media (max-width: 1182px) {
+  .navbar .Logo {
+    width: 14%;
+  }
+}
+
+@media (max-width: 864px) {
+  .navbar .Logo {
+    width: 16%;
+  }
+}
+
+@media (max-width: 701px) {
+  .navbar .Logo {
+    width: 17%;
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar .Logo {
+    width: 18%;
+  }
+}
+
+@media (max-width: 623px) {
+  .navbar .Logo {
+    width: 20%;
+  }
+}
+
+@media (max-width: 561px) {
+  .navbar .Logo {
+    width: 22%;
+  }
+}
+
+@media (max-width: 511px) {
+  .navbar .Logo {
+    width: 24%;
+  }
+}
+
+@media (max-width: 467px) {
+  .navbar .Logo {
+    width: 26%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .navbar .Logo {
+    width: 30%;
+  }
+}
+
+.navbar .Logo a {
+  font-size: 1.6rem;
+  font-family: "helvetica";
+  color: #283B62;
+  text-decoration: none;
+}
+
+.navbar .navmenu {
+  height: 2.5rem;
+  font-size: 1.4rem;
+  font-family: "open sans";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .navbar .navmenu {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar .navmenu {
+    display: none;
+  }
+}
+
+.navbar .navmenu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .navbar .navmenu ul {
+    display: block;
+    position: absolute;
+    width: 20.2rem;
+    height: 100vh;
+    margin-top: 5.4rem;
+    background-color: #cbb492;
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 700px) and (max-width: 375px) and (max-height: 667px) {
+  .navbar .navmenu ul {
+    width: 21.2rem;
+    margin-left: -6rem;
+    padding-left: 0rem;
+    z-index: 1;
+  }
+}
+
+.navbar .navmenu ul #Cross {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .navbar .navmenu ul #Cross {
+    margin-left: 16rem;
+    padding-top: 20rem;
+    font-size: 2rem;
+    color: white;
+  }
+}
+
+.navbar .navmenu ul li {
+  list-style: none;
+}
+
+@media (max-width: 700px) {
+  .navbar .navmenu ul li {
+    margin-top: 5rem;
+  }
+}
+
+.navbar .navmenu ul li a {
+  text-decoration: none;
+  margin-left: 8rem;
+  color: #283B62;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .navbar .navmenu ul li a {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 821px) {
+  .navbar .navmenu ul li a {
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar .navmenu ul li a {
+    color: white;
+  }
+}
+
+.navbar .navmenu ul li :hover {
+  color: #CBB492;
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .navbar .navmenu ul li :hover {
+    color: #283B62;
+  }
+}
+
+.navbar #Hamburger {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .navbar #Hamburger {
+    display: block;
+    font-size: 3rem;
+    color: #283B62;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.LandingPage {
+  height: 104vh;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .LandingPage {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+  .LandingPage {
+    height: 89vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .LandingPage {
+    height: 47vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .LandingPage {
+    height: 58vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .LandingPage {
+    height: 65vh;
+  }
+}
+
+@media (max-width: 727px) and (max-height: 768px) {
+  .LandingPage {
+    height: 106vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 711px) {
+  .LandingPage {
+    height: 114vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 657px) {
+  .LandingPage {
+    height: 128vh;
+  }
+}
+
+@media (max-width: 1329px) and (max-height: 657px) {
+  .LandingPage {
+    height: 125vh;
+  }
+}
+
+@media (max-width: 1301px) and (max-height: 657px) {
+  .LandingPage {
+    height: 122vh;
+  }
+}
+
+@media (max-width: 1277px) and (max-height: 657px) {
+  .LandingPage {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 1256px) and (max-height: 657px) {
+  .LandingPage {
+    height: 118vh;
+  }
+}
+
+@media (max-width: 1218px) and (max-height: 657px) {
+  .LandingPage {
+    height: 116vh;
+  }
+}
+
+@media (max-width: 1204px) and (max-height: 657px) {
+  .LandingPage {
+    height: 115vh;
+  }
+}
+
+@media (max-width: 1190px) and (max-height: 657px) {
+  .LandingPage {
+    height: 113vh;
+  }
+}
+
+@media (max-width: 1162px) and (max-height: 657px) {
+  .LandingPage {
+    height: 111vh;
+  }
+}
+
+@media (max-width: 1141px) and (max-height: 657px) {
+  .LandingPage {
+    height: 109vh;
+  }
+}
+
+@media (max-width: 1110px) and (max-height: 657px) {
+  .LandingPage {
+    height: 107vh;
+  }
+}
+
+@media (max-width: 1068px) and (max-height: 657px) {
+  .LandingPage {
+    height: 105vh;
+  }
+}
+
+@media (max-width: 1046px) and (max-height: 657px) {
+  .LandingPage {
+    height: 103vh;
+  }
+}
+
+@media (max-width: 1032px) and (max-height: 657px) {
+  .LandingPage {
+    height: 101vh;
+  }
+}
+
+@media (max-width: 1004px) and (max-height: 657px) {
+  .LandingPage {
+    height: 99vh;
+  }
+}
+
+@media (max-width: 998px) and (max-height: 657px) {
+  .LandingPage {
+    height: 117vh;
+  }
+}
+
+@media (max-width: 979px) and (max-height: 657px) {
+  .LandingPage {
+    height: 116vh;
+  }
+}
+
+@media (max-width: 954px) and (max-height: 657px) {
+  .LandingPage {
+    height: 114vh;
+  }
+}
+
+@media (max-width: 932px) and (max-height: 657px) {
+  .LandingPage {
+    height: 114vh;
+  }
+}
+
+@media (max-width: 906px) and (max-height: 657px) {
+  .LandingPage {
+    height: 112vh;
+  }
+}
+
+@media (max-width: 885px) and (max-height: 657px) {
+  .LandingPage {
+    height: 110vh;
+  }
+}
+
+@media (max-width: 854px) and (max-height: 657px) {
+  .LandingPage {
+    height: 108vh;
+  }
+}
+
+@media (max-width: 826px) and (max-height: 657px) {
+  .LandingPage {
+    height: 106vh;
+  }
+}
+
+@media (max-width: 795px) and (max-height: 657px) {
+  .LandingPage {
+    height: 104vh;
+  }
+}
+
+@media (max-width: 788px) and (max-height: 657px) {
+  .LandingPage {
+    height: 109vh;
+  }
+}
+
+@media (max-width: 727px) and (max-height: 657px) {
+  .LandingPage {
+    height: 107vh;
+  }
+}
+
+@media (max-width: 454px) and (max-height: 657px) {
+  .LandingPage {
+    height: 144vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) and (min-height: 658px) {
+  .LandingPage {
+    height: 124vh;
+  }
+}
+
+.LandingPage img {
+  width: 100%;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .LandingPage img {
+    height: 45vh;
+  }
+}
+
+@media (max-height: 768px) and (min-height: 660px) {
+  .LandingPage img {
+    height: 90vh;
+  }
+}
+
+@media (max-height: 660px) {
+  .LandingPage img {
+    height: 69vh;
+  }
+}
+
+@media (max-width: 788px) and (max-height: 657px) {
+  .LandingPage img {
+    height: 69vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .LandingPage img {
+    height: 49vh;
+  }
+}
+
+@media (max-width: 467px) {
+  .LandingPage img {
+    width: 100.5%;
+  }
+}
+
+.LandingPage .Six_Bed_House {
+  position: absolute;
+  width: 25%;
+  height: 48rem;
+  opacity: 0.9;
+  background-color: #283B62;
+  margin-top: -35.1rem;
+  margin-left: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  color: white;
+  padding-top: 2rem;
+}
+
+@media (max-width: 1340px) {
+  .LandingPage .Six_Bed_House {
+    width: 26%;
+  }
+}
+
+@media (max-width: 1259px) {
+  .LandingPage .Six_Bed_House {
+    width: 28%;
+  }
+}
+
+@media (max-width: 1198px) {
+  .LandingPage .Six_Bed_House {
+    width: 28%;
+  }
+}
+
+@media (max-width: 1167px) {
+  .LandingPage .Six_Bed_House {
+    width: 29%;
+  }
+}
+
+@media (max-width: 1193px) {
+  .LandingPage .Six_Bed_House {
+    margin-left: 16rem;
+  }
+}
+
+@media (max-width: 1163px) {
+  .LandingPage .Six_Bed_House {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1091px) {
+  .LandingPage .Six_Bed_House {
+    width: 31%;
+  }
+}
+
+@media (max-width: 1053px) {
+  .LandingPage .Six_Bed_House {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1045px) {
+  .LandingPage .Six_Bed_House {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .LandingPage .Six_Bed_House {
+    width: 33%;
+  }
+}
+
+@media (max-width: 998px) and (height: 657px) {
+  .LandingPage .Six_Bed_House {
+    margin-top: -23.1rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .LandingPage .Six_Bed_House {
+    width: 34%;
+  }
+}
+
+@media (max-width: 961px) {
+  .LandingPage .Six_Bed_House {
+    width: 35%;
+  }
+}
+
+@media (max-width: 936px) {
+  .LandingPage .Six_Bed_House {
+    width: 36%;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .LandingPage .Six_Bed_House {
+    width: 36%;
+    margin-left: 4rem;
+  }
+}
+
+@media (max-width: 909px) {
+  .LandingPage .Six_Bed_House {
+    width: 37%;
+  }
+}
+
+@media (max-width: 885px) {
+  .LandingPage .Six_Bed_House {
+    width: 38%;
+  }
+}
+
+@media (max-width: 862px) {
+  .LandingPage .Six_Bed_House {
+    width: 39%;
+  }
+}
+
+@media (max-width: 839px) {
+  .LandingPage .Six_Bed_House {
+    width: 40%;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .LandingPage .Six_Bed_House {
+    margin-top: -23.1rem;
+    font-size: 1.8rem;
+    height: 51rem;
+  }
+}
+
+@media (max-width: 818px) {
+  .LandingPage .Six_Bed_House {
+    width: 41%;
+  }
+}
+
+@media (max-width: 798px) {
+  .LandingPage .Six_Bed_House {
+    width: 51%;
+  }
+}
+
+@media (max-width: 799px) {
+  .LandingPage .Six_Bed_House {
+    width: 43%;
+  }
+}
+
+@media (max-width: 788px) and (height: 657px) {
+  .LandingPage .Six_Bed_House {
+    width: 43%;
+    height: 47rem;
+  }
+}
+
+@media (max-width: 761px) {
+  .LandingPage .Six_Bed_House {
+    width: 44%;
+  }
+}
+
+@media (max-width: 744px) {
+  .LandingPage .Six_Bed_House {
+    width: 45%;
+  }
+}
+
+@media (max-width: 727px) {
+  .LandingPage .Six_Bed_House {
+    width: 46%;
+    margin-top: -24.1rem;
+    height: 47rem;
+  }
+}
+
+@media (max-width: 712px) {
+  .LandingPage .Six_Bed_House {
+    width: 47%;
+  }
+}
+
+@media (max-width: 796px) {
+  .LandingPage .Six_Bed_House {
+    width: 48%;
+  }
+}
+
+@media (max-width: 682px) {
+  .LandingPage .Six_Bed_House {
+    width: 49%;
+  }
+}
+
+@media (max-width: 668px) {
+  .LandingPage .Six_Bed_House {
+    width: 50%;
+  }
+}
+
+@media (max-width: 655px) {
+  .LandingPage .Six_Bed_House {
+    width: 51%;
+  }
+}
+
+@media (max-width: 642px) {
+  .LandingPage .Six_Bed_House {
+    width: 52%;
+  }
+}
+
+@media (max-width: 629px) {
+  .LandingPage .Six_Bed_House {
+    width: 53%;
+  }
+}
+
+@media (max-width: 619px) {
+  .LandingPage .Six_Bed_House {
+    width: 54%;
+  }
+}
+
+@media (max-width: 606px) {
+  .LandingPage .Six_Bed_House {
+    width: 56%;
+  }
+}
+
+@media (max-width: 584px) {
+  .LandingPage .Six_Bed_House {
+    width: 57%;
+  }
+}
+
+@media (max-width: 574px) {
+  .LandingPage .Six_Bed_House {
+    width: 58%;
+  }
+}
+
+@media (max-width: 565px) {
+  .LandingPage .Six_Bed_House {
+    width: 59%;
+  }
+}
+
+@media (max-width: 555px) {
+  .LandingPage .Six_Bed_House {
+    width: 60%;
+  }
+}
+
+@media (max-width: 545px) {
+  .LandingPage .Six_Bed_House {
+    width: 61%;
+  }
+}
+
+@media (max-width: 535px) {
+  .LandingPage .Six_Bed_House {
+    width: 62%;
+  }
+}
+
+@media (max-width: 528px) {
+  .LandingPage .Six_Bed_House {
+    width: 63%;
+  }
+}
+
+@media (max-width: 519px) {
+  .LandingPage .Six_Bed_House {
+    width: 64%;
+  }
+}
+
+@media (max-width: 511px) {
+  .LandingPage .Six_Bed_House {
+    width: 65%;
+  }
+}
+
+@media (max-width: 503px) {
+  .LandingPage .Six_Bed_House {
+    width: 66%;
+  }
+}
+
+@media (max-width: 499px) {
+  .LandingPage .Six_Bed_House {
+    width: 67%;
+  }
+}
+
+@media (max-width: 488px) {
+  .LandingPage .Six_Bed_House {
+    width: 68%;
+  }
+}
+
+@media (max-width: 481px) {
+  .LandingPage .Six_Bed_House {
+    width: 69%;
+  }
+}
+
+@media (max-width: 474px) {
+  .LandingPage .Six_Bed_House {
+    width: 70%;
+  }
+}
+
+@media (max-width: 467px) {
+  .LandingPage .Six_Bed_House {
+    width: 71%;
+  }
+}
+
+@media (max-width: 461px) {
+  .LandingPage .Six_Bed_House {
+    width: 72%;
+  }
+}
+
+@media (max-width: 454px) {
+  .LandingPage .Six_Bed_House {
+    width: 73%;
+  }
+}
+
+@media (max-width: 454px) and (max-height: 657px) {
+  .LandingPage .Six_Bed_House {
+    width: 104%;
+    margin-left: 0rem;
+    margin-top: -0.2rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .LandingPage .Six_Bed_House {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+}
+
+.LandingPage .Six_Bed_House .Text {
+  width: 85%;
+}
+
+@media (max-width: 454px) and (max-height: 657px) {
+  .LandingPage .Six_Bed_House .Text {
+    width: 64%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .LandingPage .Six_Bed_House .Text {
+    width: 75%;
+  }
+}
+
+.LandingPage .Six_Bed_House .Text h2 {
+  font-size: 2.8rem;
+  line-height: 1.4em;
+}
+
+.LandingPage .Six_Bed_House .Text p {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+}
+
+.LandingPage .Six_Bed_House .Text .Line {
+  border: 1px solid #fff;
+  margin-top: 2rem;
+}
+
+.LandingPage .Six_Bed_House .Text .Price {
+  color: #fff;
+  margin-top: 3rem;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.LandingPage .Six_Bed_House .Text .btn {
+  width: 19rem;
+  height: 5rem;
+  margin-top: 3rem;
+  margin-left: 4.4rem;
+  border: 2PX SOLID white;
+  color: WHITE;
+  font-size: 1.4rem;
+  background-color: #283B62;
+}
+
+@media (max-width: 1345px) {
+  .LandingPage .Six_Bed_House .Text .btn {
+    margin-left: 4.4rem;
+  }
+}
+
+@media (max-width: 1259px) {
+  .LandingPage .Six_Bed_House .Text .btn {
+    margin-left: 5.4rem;
+  }
+}
+
+@media (max-width: 788px) {
+  .LandingPage .Six_Bed_House .Text .btn {
+    margin-left: 4.4rem;
+  }
+}
+
+.Selling_Property {
+  height: 147vh;
+}
+
+@media (max-height: 768px) {
+  .Selling_Property {
+    height: 115vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) and (min-height: 700px) {
+  .Selling_Property {
+    height: 119vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Selling_Property {
+    height: 64vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Selling_Property {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 788px) and (max-height: 657px) {
+  .Selling_Property {
+    height: 132vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Selling_Property {
+    height: 89vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property {
+    height: 180vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property {
+    height: 180vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 742px) {
+  .Selling_Property {
+    height: 185vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 721px) {
+  .Selling_Property {
+    height: 190vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 706px) {
+  .Selling_Property {
+    height: 195vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 671px) {
+  .Selling_Property {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 662px) {
+  .Selling_Property {
+    height: 204vh;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 653px) {
+  .Selling_Property {
+    height: 206vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Selling_Property {
+    height: 404vh;
+  }
+}
+
+.Selling_Property .Selling_Property_List {
+  width: 70%;
+  margin: auto;
+  height: 126vh;
+  margin-top: 21rem;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Selling_Property .Selling_Property_List {
+    width: 61%;
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 1340px) {
+  .Selling_Property .Selling_Property_List {
+    width: 72%;
+  }
+}
+
+@media (max-width: 1307px) {
+  .Selling_Property .Selling_Property_List {
+    width: 73%;
+  }
+}
+
+@media (max-width: 1284px) {
+  .Selling_Property .Selling_Property_List {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1284px) {
+  .Selling_Property .Selling_Property_List {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1220px) {
+  .Selling_Property .Selling_Property_List {
+    width: 79%;
+  }
+}
+
+@media (max-width: 1198px) {
+  .Selling_Property .Selling_Property_List {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1179px) {
+  .Selling_Property .Selling_Property_List {
+    width: 81%;
+  }
+}
+
+@media (max-width: 1151px) {
+  .Selling_Property .Selling_Property_List {
+    width: 83%;
+  }
+}
+
+@media (max-width: 1130px) {
+  .Selling_Property .Selling_Property_List {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1108px) {
+  .Selling_Property .Selling_Property_List {
+    width: 86%;
+  }
+}
+
+@media (max-width: 1093px) {
+  .Selling_Property .Selling_Property_List {
+    width: 88%;
+  }
+}
+
+@media (max-width: 1064px) {
+  .Selling_Property .Selling_Property_List {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1064px) {
+  .Selling_Property .Selling_Property_List {
+    width: 92%;
+  }
+}
+
+@media (max-width: 1016px) {
+  .Selling_Property .Selling_Property_List {
+    width: 94%;
+  }
+}
+
+@media (max-width: 998px) {
+  .Selling_Property .Selling_Property_List {
+    width: 87%;
+  }
+}
+
+@media (max-width: 980px) {
+  .Selling_Property .Selling_Property_List {
+    width: 88%;
+  }
+}
+
+@media (max-width: 971px) {
+  .Selling_Property .Selling_Property_List {
+    width: 89%;
+  }
+}
+
+@media (max-width: 961px) {
+  .Selling_Property .Selling_Property_List {
+    width: 90%;
+  }
+}
+
+@media (max-width: 950px) {
+  .Selling_Property .Selling_Property_List {
+    width: 91%;
+  }
+}
+
+@media (max-width: 936px) {
+  .Selling_Property .Selling_Property_List {
+    width: 92%;
+  }
+}
+
+@media (max-width: 923px) {
+  .Selling_Property .Selling_Property_List {
+    width: 94%;
+  }
+}
+
+@media (max-width: 909px) {
+  .Selling_Property .Selling_Property_List {
+    width: 85%;
+  }
+}
+
+@media (max-width: 891px) {
+  .Selling_Property .Selling_Property_List {
+    width: 87%;
+  }
+}
+
+@media (max-width: 862px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 873px) {
+  .Selling_Property .Selling_Property_List {
+    width: 88%;
+  }
+}
+
+@media (max-width: 864px) {
+  .Selling_Property .Selling_Property_List {
+    width: 90%;
+  }
+}
+
+@media (max-width: 850px) {
+  .Selling_Property .Selling_Property_List {
+    width: 91%;
+  }
+}
+
+@media (max-width: 836px) {
+  .Selling_Property .Selling_Property_List {
+    width: 94%;
+  }
+}
+
+@media (max-width: 817px) {
+  .Selling_Property .Selling_Property_List {
+    width: 95%;
+  }
+}
+
+@media (max-width: 800px) {
+  .Selling_Property .Selling_Property_List {
+    width: 85%;
+  }
+}
+
+@media (max-width: 788px) and (max-height: 657px) {
+  .Selling_Property .Selling_Property_List {
+    width: 87%;
+    margin-top: 5rem;
+    height: 131vh;
+  }
+}
+
+@media (max-width: 769px) {
+  .Selling_Property .Selling_Property_List {
+    width: 89%;
+  }
+}
+
+@media (max-width: 756px) {
+  .Selling_Property .Selling_Property_List {
+    width: 90%;
+  }
+}
+
+@media (max-width: 747px) {
+  .Selling_Property .Selling_Property_List {
+    width: 92%;
+  }
+}
+
+@media (max-width: 727px) {
+  .Selling_Property .Selling_Property_List {
+    width: 93%;
+  }
+}
+
+@media (max-width: 720px) {
+  .Selling_Property .Selling_Property_List {
+    width: 86%;
+  }
+}
+
+@media (max-width: 710px) {
+  .Selling_Property .Selling_Property_List {
+    width: 88%;
+  }
+}
+
+@media (max-width: 695px) {
+  .Selling_Property .Selling_Property_List {
+    width: 89%;
+  }
+}
+
+@media (max-width: 677px) {
+  .Selling_Property .Selling_Property_List {
+    width: 91%;
+  }
+}
+
+@media (max-width: 663px) {
+  .Selling_Property .Selling_Property_List {
+    width: 93%;
+  }
+}
+
+@media (max-width: 656px) {
+  .Selling_Property .Selling_Property_List {
+    width: 95%;
+  }
+}
+
+@media (max-width: 642px) {
+  .Selling_Property .Selling_Property_List {
+    width: 96%;
+  }
+}
+
+@media (max-width: 642px) {
+  .Selling_Property .Selling_Property_List {
+    width: 97%;
+  }
+}
+
+.Selling_Property .Selling_Property_List h1 {
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  color: #283B62;
+  text-align: center;
+}
+
+.Selling_Property .Selling_Property_List .Houses_List {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List .Houses_List {
+    display: block;
+  }
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses {
+  width: 31rem;
+  height: 73rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 998px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 909px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses {
+    border: 2px solid red;
+    width: 61rem;
+    height: 40rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses {
+    display: block;
+    width: 36.4rem;
+    height: 83rem;
+    margin-left: -0.5rem;
+  }
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses img {
+  width: 100%;
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses img {
+    width: 28rem;
+    height: 40rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses img {
+    width: 37.5rem;
+  }
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Name {
+  display: block;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #5272b2;
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Price {
+  display: block;
+  margin-top: 2rem;
+  color: #5272b2;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Room {
+  display: block;
+  margin-top: 2rem;
+  color: #CBB492;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Room {
+    font-size: 1.8rem;
+  }
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Text {
+  display: block;
+  margin-top: 2rem;
+  color: #A0A09F;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: 1.56em;
+}
+
+@media (max-width: 882px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .Text {
+    font-size: 1.7rem;
+  }
+}
+
+.Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .btn {
+  border: 2px solid #5272b2;
+  color: #5272b2;
+  background-color: #fff;
+  width: 15rem;
+  height: 4rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail .btn {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Selling_Property .Selling_Property_List .Houses_List .Houses .House_detail {
+    margin-left: 2rem;
+  }
+}
+
+.Rental_Property {
+  height: 151vh;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Rental_Property {
+    height: 128vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) and (min-height: 658px) {
+  .Rental_Property {
+    height: 108vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Rental_Property {
+    height: 68vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property {
+    height: 83vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Rental_Property {
+    height: 103vh;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Rental_Property {
+    height: 184vh;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 657px) {
+  .Rental_Property {
+    height: 211vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Rental_Property {
+    height: 231vh;
+  }
+}
+
+.Rental_Property h1 {
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  color: #283B62;
+  text-align: center;
+}
+
+.Rental_Property .Properties_List {
+  height: 141vh;
+  margin-top: 9rem;
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container {
+  height: 70vh;
+  background-color: #1e3054;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 57vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) and (min-height: 658px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 29vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 36vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 47vh;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 82vh;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 657px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 97vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container {
+    height: 112vh;
+  }
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55%;
+  height: 60vh;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1195px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 67%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 69%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 76%;
+  }
+}
+
+@media (max-width: 850px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 82%;
+  }
+}
+
+@media (max-width: 745px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 89%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    width: 89%;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue {
+    display: block;
+    height: 81vh;
+  }
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue img {
+  height: 32rem;
+  margin-top: -5rem;
+  width: 29rem;
+}
+
+@media (max-width: 900px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue img {
+    width: 26rem;
+  }
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail {
+  width: 54%;
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Name {
+  display: block;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Price {
+  display: block;
+  margin-top: 2rem;
+  color: #5272b2;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Room {
+  display: block;
+  margin-top: 2rem;
+  color: #CBB492;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Room {
+    font-size: 1.8rem;
+  }
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Text {
+  display: block;
+  margin-top: 2rem;
+  color: #616E89;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: 1.56em;
+}
+
+@media (max-width: 882px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .Text {
+    font-size: 1.7rem;
+  }
+}
+
+.Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .btn {
+  border: 2px solid #5272b2;
+  color: #5272b2;
+  background-color: #fff;
+  width: 15rem;
+  height: 4rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail .btn {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .Rental_Property .Properties_List .Chase_Avenue_Container .Chase_Avenue .Chase_Avenue_Detail {
+    width: 95%;
+  }
+}
+
+.Rental_Property .Properties_List .King_Close_Container {
+  height: 64vh;
+  background-color: #293b5f;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 57vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 56vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 754px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 58vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 711px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 702px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 61vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 690px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 62vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 680px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 63vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 667px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 64vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 31vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 36vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 47vh;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 89vh;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 657px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 103vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Rental_Property .Properties_List .King_Close_Container {
+    height: 112vh;
+  }
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55%;
+  height: 60vh;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1195px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    width: 67%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    width: 69%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    width: 76%;
+  }
+}
+
+@media (max-width: 850px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    width: 82%;
+  }
+}
+
+@media (max-width: 745px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    width: 89%;
+  }
+}
+
+@media (max-width: 650px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close {
+    display: block;
+    height: 86vh;
+  }
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close img {
+  height: 32rem;
+  margin-top: 9.9rem;
+  width: 29rem;
+}
+
+@media (max-width: 900px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close img {
+    width: 26rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close img {
+    margin-top: 2.9rem;
+  }
+}
+
+@media (max-height: 754px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close img {
+    margin-top: 4.9rem;
+  }
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail {
+  margin-top: 7rem;
+  width: 54%;
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Name {
+  display: block;
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Price {
+  display: block;
+  margin-top: 2rem;
+  color: #5272b2;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Room {
+  display: block;
+  margin-top: 2rem;
+  color: #CBB492;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Room {
+    font-size: 1.8rem;
+  }
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Text {
+  display: block;
+  margin-top: 2rem;
+  color: #616E89;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  line-height: 1.56em;
+}
+
+@media (max-width: 882px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Text {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .Text {
+    font-size: 1.7rem;
+  }
+}
+
+.Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .btn {
+  border: 2px solid #5272b2;
+  color: #5272b2;
+  background-color: #fff;
+  width: 15rem;
+  height: 4rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 626px) and (max-height: 768px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail .btn {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .Rental_Property .Properties_List .King_Close_Container .King_Close .King_Close_Detail {
+    width: 95%;
+    margin-top: -4rem;
+    padding-top: 7rem;
+  }
+}
+
+.Realtors_Trust {
+  height: 65vh;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Realtors_Trust {
+    height: 56vh;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) and (min-height: 658px) {
+  .Realtors_Trust {
+    height: 80vh;
+    padding-top: 16rem;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Realtors_Trust {
+    height: 32vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Realtors_Trust {
+    height: 35vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Realtors_Trust {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .Realtors_Trust {
+    height: 115vh;
+    padding-top: 7rem;
+  }
+}
+
+@media (max-width: 650px) and (max-height: 768px) {
+  .Realtors_Trust {
+    height: 103vh;
+    padding-top: 0rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Realtors_Trust {
+    height: 114vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Realtors_Trust {
+    height: 147vh;
+  }
+}
+
+.Realtors_Trust h1 {
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  color: #283B62;
+  text-align: center;
+  margin-top: 12rem;
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Realtors_Trust h1 {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Realtors_Trust h1 {
+    margin-top: 6rem;
+  }
+}
+
+.Realtors_Trust .Realtors_Trust_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 67%;
+  margin: auto;
+}
+
+@media (max-width: 1313px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1265px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1261px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 71%;
+  }
+}
+
+@media (max-width: 1245px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 72%;
+  }
+}
+
+@media (max-width: 1228px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 73%;
+  }
+}
+
+@media (max-width: 1228px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 74%;
+  }
+}
+
+@media (max-width: 1195px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1179px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 76%;
+  }
+}
+
+@media (max-width: 1163px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1145px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 78%;
+  }
+}
+
+@media (max-width: 1125px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 79%;
+  }
+}
+
+@media (max-width: 1119px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1105px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 81%;
+  }
+}
+
+@media (max-width: 1091px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 82%;
+  }
+}
+
+@media (max-width: 1074px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 83%;
+  }
+}
+
+@media (max-width: 1078px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 84%;
+  }
+}
+
+@media (max-width: 1052px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 86%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 87%;
+  }
+}
+
+@media (max-width: 1016px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 88%;
+  }
+}
+
+@media (max-width: 1004px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 89%;
+  }
+}
+
+@media (max-width: 993px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 90%;
+  }
+}
+
+@media (max-width: 982px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 91%;
+  }
+}
+
+@media (max-width: 971px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 92%;
+  }
+}
+
+@media (max-width: 961px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 93%;
+  }
+}
+
+@media (max-width: 950px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 94%;
+  }
+}
+
+@media (max-width: 936px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 88%;
+  }
+}
+
+@media (max-width: 921px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 89%;
+  }
+}
+
+@media (max-width: 910px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .Realtors_Trust .Realtors_Trust_List {
+    display: block;
+    width: 55%;
+  }
+}
+
+.Realtors_Trust .Realtors_Trust_List .Realtors {
+  width: 29%;
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors {
+    width: 99%;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors {
+    width: 99%;
+    margin-top: 3rem;
+  }
+}
+
+.Realtors_Trust .Realtors_Trust_List .Realtors img {
+  margin-left: 9rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 1600px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors img {
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 936px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors img {
+    margin-left: 8rem;
+  }
+}
+
+@media (max-width: 769px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors img {
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors img {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors img {
+    margin-left: 16rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors img {
+    margin-left: 7rem;
+  }
+}
+
+.Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #283B62;
+  text-align: center;
+  width: 88%;
+  margin: auto;
+  line-height: 1.5em;
+  margin-top: 2rem;
+}
+
+@media (max-width: 936px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 96%;
+  }
+}
+
+@media (max-width: 900px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 97%;
+  }
+}
+
+@media (max-width: 882px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    font-size: 1.6rem;
+    width: 99%;
+  }
+}
+
+@media (max-width: 873px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 864px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 101%;
+  }
+}
+
+@media (max-width: 856px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 102%;
+  }
+}
+
+@media (max-width: 847px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 103%;
+  }
+}
+
+@media (max-width: 839px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 104%;
+  }
+}
+
+@media (max-width: 832px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 106%;
+  }
+}
+
+@media (max-width: 725px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 107%;
+  }
+}
+
+@media (max-width: 718px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors h2 {
+    width: 108%;
+  }
+}
+
+.Realtors_Trust .Realtors_Trust_List .Realtors p {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #616E89;
+  text-align: center;
+  width: 92%;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+@media (max-width: 882px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .Realtors_Trust .Realtors_Trust_List .Realtors p {
+    width: auto;
+  }
+}
+
+.Clients_Reviews {
+  height: 84vh;
+  background-image: url("https://static.wixstatic.com/media/84770f_5d808592eef24e498bf807fcc6844dfb~mv2.jpg/v1/fill/w_1349,h_585,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_5d808592eef24e498bf807fcc6844dfb~mv2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Clients_Reviews {
+    height: 77vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Clients_Reviews {
+    height: 39vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Clients_Reviews {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Clients_Reviews {
+    height: 56vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .Clients_Reviews {
+    height: 95vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Clients_Reviews {
+    height: 109vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Clients_Reviews {
+    height: 133vh;
+  }
+}
+
+.Clients_Reviews .Review_box {
+  height: 84vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(40, 59, 98, 0.6);
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Clients_Reviews .Review_box {
+    height: 77vh;
+  }
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Clients_Reviews .Review_box {
+    height: 39vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Clients_Reviews .Review_box {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 768px) and (max-height: 1024px) {
+  .Clients_Reviews .Review_box {
+    height: 56vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .Clients_Reviews .Review_box {
+    height: 100%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Clients_Reviews .Review_box {
+    height: 100%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Clients_Reviews .Review_box {
+    height: 133vh;
+  }
+}
+
+.Clients_Reviews .Review_box .Reviews_Container {
+  width: 67%;
+  height: 58%;
+  margin: auto;
+}
+
+@media (max-width: 1163px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1016px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 957px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    width: 93%;
+  }
+}
+
+@media (max-width: 786px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    height: 94%;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Clients_Reviews .Review_box .Reviews_Container {
+    height: 94%;
+  }
+}
+
+.Clients_Reviews .Review_box .Reviews_Container h2 {
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.Clients_Reviews .Review_box .Reviews_Container .Reviews_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List {
+    display: block;
+    width: 59%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List {
+    display: block;
+    width: 59%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List {
+    width: 84%;
+  }
+}
+
+.Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews {
+  font-family: sans-serif;
+}
+
+.Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Comma {
+  display: block;
+  color: #cbb492;
+  font-size: 4rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3rem;
+}
+
+.Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+  display: block;
+  color: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.5em;
+  width: 24rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+  }
+}
+
+@media (max-width: 786px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1366px) and (max-height: 768px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+    width: 36rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Text {
+    width: 28rem;
+  }
+}
+
+.Clients_Reviews .Review_box .Reviews_Container .Reviews_List .Reviews .Client_Name {
+  display: block;
+  color: #cbb492;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.ContactContainer {
+  width: 100%;
+  height: 75vh;
+  padding-top: 3rem;
+  overflow-y: hidden;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  .ContactContainer {
+    height: 38vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .ContactContainer {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 820px) and (max-height: 1180px) {
+  .ContactContainer {
+    height: 57vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer {
+    height: 124vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 756px) {
+  .ContactContainer {
+    height: 133vh;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 657px) {
+  .ContactContainer {
+    height: 147vh;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer {
+    width: 99%;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer {
+    height: 148vh;
+  }
+}
+
+.ContactContainer h2 {
+  font-size: 2.8rem;
+  text-align: center;
+  color: #283B62;
+  font-family: sans-serif;
+}
+
+.ContactContainer .Contact {
+  width: 101rem;
+  height: 58vh;
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1096px) {
+  .ContactContainer .Contact {
+    width: 96rem;
+  }
+}
+
+@media (max-width: 1045px) {
+  .ContactContainer .Contact {
+    width: 92rem;
+  }
+}
+
+@media (max-width: 998px) {
+  .ContactContainer .Contact {
+    width: 88rem;
+  }
+}
+
+@media (max-width: 958px) {
+  .ContactContainer .Contact {
+    width: 84rem;
+  }
+}
+
+@media (max-width: 936px) {
+  .ContactContainer .Contact {
+    width: 82rem;
+  }
+}
+
+@media (max-width: 910px) {
+  .ContactContainer .Contact {
+    width: 79rem;
+  }
+}
+
+@media (max-width: 875px) {
+  .ContactContainer .Contact {
+    width: 76rem;
+  }
+}
+
+@media (max-width: 824px) {
+  .ContactContainer .Contact {
+    width: 73rem;
+  }
+}
+
+@media (max-width: 786px) {
+  .ContactContainer .Contact {
+    width: 68rem;
+  }
+}
+
+@media (max-width: 727px) {
+  .ContactContainer .Contact {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact {
+    display: block;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact {
+    width: 36rem;
+  }
+}
+
+.ContactContainer .Contact .ContactMap {
+  height: auto;
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactMap {
+    height: auto;
+    width: 88%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact .ContactMap {
+    margin-left: 0rem;
+  }
+}
+
+.ContactContainer .Contact .ContactMap #Address_Heading {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #283B62;
+  font-family: "helvetica";
+}
+
+.ContactContainer .Contact .ContactMap .Address {
+  margin-bottom: 3.1rem;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  color: #A0A09F;
+  width: 18.4rem;
+  margin-top: 4rem;
+}
+
+@media (max-width: 998px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 450px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 958px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 356px;
+  }
+}
+
+@media (max-width: 910px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    height: 188px;
+  }
+}
+
+@media (max-width: 786px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 307px;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 571px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact .ContactMap iframe {
+    width: 357px;
+  }
+}
+
+.ContactContainer .Contact .ContactForm {
+  height: auto;
+  color: white;
+  font-family: 'open sans';
+  font-size: 1.4rem;
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactForm {
+    height: auto;
+    width: 88%;
+    margin: auto;
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact .ContactForm {
+    margin-left: 0rem;
+  }
+}
+
+.ContactContainer .Contact .ContactForm #Form_Heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #283B62;
+  font-family: "helvetica";
+  line-height: normal;
+  letter-spacing: normal;
+  width: 290px;
+}
+
+@media (max-width: 727px) {
+  .ContactContainer .Contact .ContactForm #Form_Heading {
+    width: 263px;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactForm #Form_Heading {
+    width: 298px;
+  }
+}
+
+.ContactContainer .Contact .ContactForm input {
+  width: 33.1rem;
+  height: 2.6rem;
+  margin-top: 0.8rem;
+  padding-left: 1rem;
+}
+
+@media (max-width: 875px) {
+  .ContactContainer .Contact .ContactForm input {
+    width: 28.1rem;
+  }
+}
+
+@media (max-width: 727px) {
+  .ContactContainer .Contact .ContactForm input {
+    width: 24.1rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactForm input {
+    width: 33.1rem;
+  }
+}
+
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactForm input {
+    width: 43.1rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact .ContactForm input {
+    width: 24.1rem;
+  }
+}
+
+.ContactContainer .Contact .ContactForm input:hover {
+  background-color: #CCCCCC4D;
+  border: 1px solid #A0A09F;
+}
+
+.ContactContainer .Contact .ContactForm textarea {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  font-family: sans-serif;
+}
+
+@media (max-width: 1350px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 333px;
+  }
+}
+
+@media (max-width: 875px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 285px;
+  }
+}
+
+@media (max-width: 727px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 243px;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 334px;
+  }
+}
+
+@media (max-width: 543px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 312px;
+    height: 141px;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact .ContactForm textarea {
+    width: 241px;
+  }
+}
+
+.ContactContainer .Contact .ContactForm textarea:hover {
+  background-color: #CCCCCC4D;
+}
+
+.ContactContainer .Contact .ContactForm .btn {
+  width: 13rem;
+  height: 3.5rem;
+  background-color: #283B62;
+  color: #fff;
+  border: none;
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  margin-left: 22rem;
+}
+
+@media (max-width: 875px) {
+  .ContactContainer .Contact .ContactForm .btn {
+    margin-left: 17rem;
+  }
+}
+
+@media (max-width: 727px) {
+  .ContactContainer .Contact .ContactForm .btn {
+    margin-left: 13rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 768px) {
+  .ContactContainer .Contact .ContactForm .btn {
+    margin-left: 22rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .ContactContainer .Contact .ContactForm .btn {
+    margin-left: 13rem;
+  }
+}
+
+#ContactDetailHeading {
+  width: 29rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #283B62;
+  font-family: "helvetica";
+  margin-top: 9rem;
+  margin-left: 17rem;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  #ContactDetailHeading {
+    margin-left: 29rem;
+  }
+}
+
+@media (max-width: 1313px) {
+  #ContactDetailHeading {
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 1272px) {
+  #ContactDetailHeading {
+    margin-left: 14rem;
+  }
+}
+
+@media (max-width: 1236px) {
+  #ContactDetailHeading {
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  #ContactDetailHeading {
+    margin-left: 9rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  #ContactDetailHeading {
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 1115px) {
+  #ContactDetailHeading {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #ContactDetailHeading {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  #ContactDetailHeading {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 700px) and (max-height: 756px) {
+  #ContactDetailHeading {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  #ContactDetailHeading {
+    margin-left: 0rem;
+  }
+}
+
+.Contact_Detail_Container {
+  margin-top: 2rem;
+  margin-left: 17rem;
+  height: 20vh;
+  margin-left: 17rem;
+}
+
+@media (max-width: 1600px) and (max-height: 757px) {
+  .Contact_Detail_Container {
+    margin-left: 29rem;
+  }
+}
+
+@media (max-width: 1313px) {
+  .Contact_Detail_Container {
+    margin-left: 15rem;
+  }
+}
+
+@media (max-width: 1272px) {
+  .Contact_Detail_Container {
+    margin-left: 14rem;
+  }
+}
+
+@media (max-width: 1236px) {
+  .Contact_Detail_Container {
+    margin-left: 11rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Contact_Detail_Container {
+    margin-left: 9rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  .Contact_Detail_Container {
+    margin-left: 7rem;
+  }
+}
+
+@media (max-width: 1115px) {
+  .Contact_Detail_Container {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Contact_Detail_Container {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .Contact_Detail_Container {
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  .Contact_Detail_Container {
+    margin-left: 0rem;
+  }
+}
+
+.Contact_Detail_Container .Contact_Detail {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #A0A09F;
+  line-height: 1.5em;
+}
+
+footer {
+  width: 100%;
+  height: 9rem;
+  background-color: #cbb492;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 912px) and (max-height: 1368px) {
+  footer {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  footer {
+    height: 13rem;
+  }
+}
+
+footer .Footer_Container {
+  width: 75%;
+  padding-top: 3.5rem;
+  margin: auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1314px) {
+  footer .Footer_Container {
+    width: 77%;
+  }
+}
+
+@media (max-width: 1293px) {
+  footer .Footer_Container {
+    width: 78%;
+  }
+}
+
+@media (max-width: 1265px) {
+  footer .Footer_Container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1220px) {
+  footer .Footer_Container {
+    width: 83%;
+  }
+}
+
+@media (max-width: 1195px) {
+  footer .Footer_Container {
+    width: 84%;
+  }
+}
+
+@media (max-width: 1163px) {
+  footer .Footer_Container {
+    width: 86%;
+  }
+}
+
+@media (max-width: 1163px) {
+  footer .Footer_Container {
+    width: 89%;
+  }
+}
+
+@media (max-width: 998px) {
+  footer .Footer_Container {
+    width: 87%;
+  }
+}
+
+@media (max-width: 875px) {
+  footer .Footer_Container {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 667px) {
+  footer .Footer_Container {
+    display: block;
+  }
+}
+
+footer .Footer_Container .Footer_text {
+  color: white;
+  font-family: 'open sans';
+  font-size: 1.4rem;
+}
+
+@media (max-width: 1366px) and (max-height: 768px) and (min-height: 657px) {
+  footer .Footer_Container .Footer_text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 998px) {
+  footer .Footer_Container .Footer_text {
+    width: 53.4rem;
+  }
+}
+
+@media (max-width: 875px) {
+  footer .Footer_Container .Footer_text {
+    width: 34.4rem;
+  }
+}
+
+@media (max-width: 677px) {
+  footer .Footer_Container .Footer_text {
+    width: 35.4rem;
+  }
+}
+
+@media (max-width: 650px) {
+  footer .Footer_Container .Footer_text {
+    width: 23.4rem;
+  }
+}
+
+@media (max-width: 543px) {
+  footer .Footer_Container .Footer_text {
+    width: 31rem;
+    text-align: center;
+  }
+}
+
+footer .Footer_Container .Footer_Icon {
+  margin-top: -1.5rem;
+}
+
+footer .Footer_Container .Footer_Icon .Icon_button {
+  background-color: white;
+  height: 3rem;
+  width: 3rem;
+  color: #cbb492;
+  border-radius: 2rem;
+  border: none;
+}
+
+@media (max-width: 998px) {
+  footer .Footer_Container .Footer_Icon {
+    margin-top: -2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .Footer_Container .Footer_Icon {
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 543px) {
+  footer .Footer_Container .Footer_Icon {
+    margin-left: 83px;
+    margin-top: 1rem;
+    padding: 0px;
+  }
+}
+
+footer .Footer_Container .Footer_Icon ul li {
+  display: inline;
+  margin-left: 0.5rem;
+}
+/*# sourceMappingURL=Home.css.map */
